@@ -1,0 +1,64 @@
+.container{
+	background: #000;
+	height: 100vh;
+	width: 100%;
+	padding-top: 50px;
+}
+.body{
+	width: 100%;
+	height: 570px;
+	background: #f1f1f1;
+	overflow: hidden;
+}
+.heading{
+	background: rgb(177, 250, 6);
+	padding-bottom: 4px;
+	margin-bottom: 10px;
+}
+.add form{
+	margin-bottom: 25px;
+}
+.add #addform input{
+	margin-right: 12px;
+}
+.add #addform input:last-child{
+	margin-right: 0;
+	margin-top: 0;
+
+}
+.edit-form{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.376);
+	display: none;
+}
+.position{
+	position: relative;
+	width: 400px;
+	height: 300px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.edit-form table{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+.edit-form #exit {
+    background: red;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: 97%;
+    top: -3%;
+	cursor: pointer;
+}
